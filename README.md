@@ -2,19 +2,23 @@
 
 Experiments in climatological time series analysis using deep learning.
 
+## STATUS
+
+Loss `0.0049` on SSN with 384-layer LSTM and 100 epochs (seems like 30 are enough). See [the notebook](LSTM-SSN.ipynb).
+
 ## PLAN
 
 ### Phase 1
 
-1. create a generic LSTM framework/notebook
-2. analyze SSN (Solar Sunspot Numbers) monthly series
-3. analyze Global/Local Datasets (temperature, precipitation, etc)
-4. analyze climatic indices (ENSO, etc)
+1. [ ] create a generic LSTM framework/notebook
+2. [x] analyze SSN (Solar Sunspot Numbers) monthly series
+3. [ ] analyze Global/Local Datasets (temperature, precipitation, etc)
+4. [ ] analyze climatic indices (ENSO, etc)
 
 ### Phase 2
 
-1. modify the network in order to accept Continuous Wavelet Transform output
-2. generate signal from predicted CWT spectra
+1. [ ] modify the network in order to accept Continuous Wavelet Transform output
+2. [ ] generate signal from predicted CWT spectra
 
 ## References
 
@@ -26,6 +30,8 @@ _Bao W, Yue J, Rao Y_: A deep learning framework for financial time series using
 
 _Franco Zavatti_:  Clima, Reti Neurali, Dati di Prossimità e Analisi Spettrali. http://www.climatemonitor.it/?p=46061
 
+https://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/
+
 ## Links for self
 
 http://www.willfleury.com/machine-learning/forecasting/lstm/2017/09/01/short-term-forceasting-lstm.html
@@ -33,3 +39,8 @@ http://www.willfleury.com/machine-learning/forecasting/lstm/2017/09/01/short-ter
 https://github.com/simaaron/kaggle-Rain
 
 https://thesai.org/Downloads/Volume8No2/Paper_43-Prediction_by_a_Hybrid_of_Wavelet_Transform.pdf
+
+## Datasets
+
+SSN Sunspot Number - Source: WDC-SILSO, Royal Observatory of Belgium, Brussels
+
