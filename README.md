@@ -4,7 +4,9 @@ Experiments in climatological time series analysis using deep learning.
 
 ## STATUS
 
-Loss `0.0049` on SSN with 384-layer LSTM and 100 epochs (seems like 30 are enough). See [the notebook](LSTM-SSN.ipynb).
+Poisson loss `0.47` on SSN with 256-layer LSTM and 200 epochs (seems like 100 are enough). See [the notebook](LSTM-SSN.ipynb).
+
+Interestingly, the network is trained on 80% of the SSN data (up to 1965, more or less) but correctly predicts the weakness of solar cycle 24.
 
 ## PLAN
 
@@ -39,6 +41,8 @@ http://www.willfleury.com/machine-learning/forecasting/lstm/2017/09/01/short-ter
 https://github.com/simaaron/kaggle-Rain
 
 https://thesai.org/Downloads/Volume8No2/Paper_43-Prediction_by_a_Hybrid_of_Wavelet_Transform.pdf
+
+https://github.com/fchollet/keras/issues/590
 
 ## Datasets
 
